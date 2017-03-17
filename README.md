@@ -21,18 +21,41 @@ For python version older than 3.4,
 
         $ pip install virtualenv
         $ virtualenv venv
-venv  <virtual_env_folder>
+        
+venv is the name of your virtual environment folder. You can call it anything you want.
 
 For python version 3.4 and above,
 cd into VDT and then create a virtual environment with the following command
 
         $ python -m venv venv
+        
+#### Install Flask:
+
+For Windows,
+
+        $ venv\Scripts\pip install Flask 
+        
+For Mac OS X,
+
+        $ venv/bin/pip install flask
+
+        
+### For Mac OS,
+
+#### Install virtual environment
+
+        $ sudo easy_install virtualenv
+        
+#### Install Flask
+
+        virtualenv venv
+. venv/bin/activate
+ 
+
+
 
 You will end up with a folder named 'venv' that contains a complete Python environment ready to be used for this project
 
-#### Install Flask:
-
-        $ venv\Scripts\pip install Flask
 
 ## Running the application:
 
@@ -50,11 +73,12 @@ You will end up with a folder named 'venv' that contains a complete Python envi
 
 #### Activate virtual environment:
 
-        $ venv\Scripts\activate
+        virtualenv venv
+        . venv/bin/activate
 
 #### Run the application:
 
-        $ venv\Scripts\python run.py
+        ./run.py
 
 
 By default the server runs at 
