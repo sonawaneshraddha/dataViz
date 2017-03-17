@@ -32,11 +32,8 @@ For python version 3.4 and above,
 
         $ venv\Scripts\pip install Flask 
         
-For Mac OS X,
-
- 
         
-### For Mac OS,
+### For Mac OS X,
 
 #### Install virtual environment
 
@@ -47,7 +44,7 @@ For Mac OS X,
 
        $ venv/bin/pip install flask
 
-###### You will end up with a folder named 'venv' that contains a complete Python environment ready to be used for this project
+##### You will end up with a folder named 'venv' that contains a complete Python environment ready to be used for this project
 
 
 ## Running the application:
@@ -66,14 +63,13 @@ For Mac OS X,
 
 #### Activate virtual environment:
 
-        $ virtualenv venv
-        $ venv/bin/activate
+        venv/bin/activate
 
 #### Run the application:
 
-        $ /run.py
+        ./run.py
 
 
-###### By default the server runs at http://localhost:5000
+##### By default the server runs at http://localhost:5000
 
 
