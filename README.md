@@ -25,7 +25,6 @@ For python version older than 3.4,
 venv is the name of your virtual environment folder. You can call it anything you want.
 
 For python version 3.4 and above,
-cd into VDT and then create a virtual environment with the following command
 
         $ python -m venv venv
         
