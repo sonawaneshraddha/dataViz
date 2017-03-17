@@ -1,20 +1,20 @@
 # dataViz
 
-### Requirements
+## Requirements
 
 Python 2.7 or later version
 
 
-### Setting up
+## Setting up
 
-#### For Windows,
+### For Windows,
 
 Choose a location where you want your application to live and create a new folder 'VDT' there to contain it. 
 VDT is the application folder.
         $ mkdir VDT
         $ cd VDT
         
-###### Install virtual environment:
+#### Install virtual environment:
 
 For python version older than 3.4,
         $ pip install virtualenv
@@ -27,19 +27,32 @@ cd into VDT and then create a virtual environment with the following command
 
 You will end up with a folder named 'venv' that contains a complete Python environment ready to be used for this project
 
-##### Install Flask:
+#### Install Flask:
 
         $ venv\Scripts\pip install Flask
 
-### Running the application:
+## Running the application:
 
-Activate virtual environment:
+### For Windows,
+
+#### Activate virtual environment:
 
         $ venv\Scripts\activate
 
-Run the application:
+#### Run the application:
 
         $ venv\Scripts\python run.py
+        
+### For Mac OS,
+
+#### Activate virtual environment:
+
+        $ venv\Scripts\activate
+
+#### Run the application:
+
+        $ venv\Scripts\python run.py
+
 
 By default the server runs at 
 http://localhost:5000
