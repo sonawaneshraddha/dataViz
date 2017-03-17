@@ -11,6 +11,7 @@ Python 2.7 or later version
 
 Choose a location where you want your application to live and create a new folder 'VDT' there to contain it. 
 VDT is the application folder.
+
         $ mkdir VDT
         $ cd VDT
         
