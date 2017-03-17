@@ -7,10 +7,10 @@ Python 2.7 or later version
 
 ## Setting up
 
-### For Windows,
-
 Choose a location where you want your application to live and create a new folder 'VDT' there to contain it. 
 VDT is the application folder.
+
+### For Windows,
 
         $ mkdir VDT
         $ cd VDT
@@ -30,30 +30,24 @@ For python version 3.4 and above,
         
 #### Install Flask:
 
-For Windows,
-
         $ venv\Scripts\pip install Flask 
         
 For Mac OS X,
 
-        $ venv/bin/pip install flask
-
+ 
         
 ### For Mac OS,
 
 #### Install virtual environment
 
         $ sudo easy_install virtualenv
-        
+        $ virtualenv venv
+    
 #### Install Flask
 
-        virtualenv venv
-. venv/bin/activate
- 
+       $ venv/bin/pip install flask
 
-
-
-You will end up with a folder named 'venv' that contains a complete Python environment ready to be used for this project
+###### You will end up with a folder named 'venv' that contains a complete Python environment ready to be used for this project
 
 
 ## Running the application:
@@ -72,15 +66,14 @@ You will end up with a folder named 'venv' that contains a complete Python envi
 
 #### Activate virtual environment:
 
-        virtualenv venv
-        . venv/bin/activate
+        $ virtualenv venv
+        $ venv/bin/activate
 
 #### Run the application:
 
-        ./run.py
+        $ /run.py
 
 
-By default the server runs at 
-http://localhost:5000
+###### By default the server runs at http://localhost:5000
 
 
