@@ -11,18 +11,21 @@ Python 2.7 or later version
 
 Choose a location where you want your application to live and create a new folder 'VDT' there to contain it. 
 VDT is the application folder.
+
         $ mkdir VDT
         $ cd VDT
         
 #### Install virtual environment:
 
 For python version older than 3.4,
+
         $ pip install virtualenv
         $ virtualenv venv
 venv  <virtual_env_folder>
 
 For python version 3.4 and above,
 cd into VDT and then create a virtual environment with the following command
+
         $ python -m venv venv
 
 You will end up with a folder named 'venv' that contains a complete Python environment ready to be used for this project
