@@ -17,22 +17,18 @@ VDT is the application folder.
         
 #### Install virtual environment:
 
-For python version older than 3.4,
-
         $ pip install virtualenv
         $ virtualenv venv
         
 venv is the name of your virtual environment folder. You can call it anything you want.
 
-For python version 3.4 and above,
 
-        $ python -m venv venv
-        
 #### Install Flask:
 
         $ venv\Scripts\pip install Flask 
         
-        
+  
+  
 ### For Mac OS X,
 
 #### Install virtual environment
@@ -58,7 +54,8 @@ For python version 3.4 and above,
 #### Run the application:
 
         $ venv\Scripts\python run.py
-        
+   
+   
 ### For Mac OS,
 
 #### Activate virtual environment:
